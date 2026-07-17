@@ -10,8 +10,8 @@ mp_draw = mp.solutions.drawing_utils
 
 # Initialize Webcam
 cap = cv2.VideoCapture(0)
-cap.set(3, 1280)  # Camera Width
-cap.set(4, 720)   # Camera Height
+cap.set(3, 1280) # Camera Width
+cap.set(4, 720)  # Camera Height
 
 # Variables for drawing and swiping logic
 annotations = []
