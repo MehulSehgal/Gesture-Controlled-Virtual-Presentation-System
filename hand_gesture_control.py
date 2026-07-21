@@ -25,7 +25,6 @@ print(" Next Slide  : Swipe hand RIGHT")
 print(" Prev Slide  : Swipe hand LEFT")
 print(" Clear Canvas: Press 'c' on your keyboard")
 print(" Quit        : Press 'q' on your keyboard\n")
-
 while True:
     ret, frame = cap.read()
     if not ret:
